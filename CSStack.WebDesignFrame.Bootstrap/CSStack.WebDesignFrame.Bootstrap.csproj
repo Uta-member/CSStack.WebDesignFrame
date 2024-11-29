@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Title>CSStack.Blazor.Bootstrap</Title>
+    <Version>0.0.1</Version>
+    <Authors>Uta Sugane</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\css\fluent.css" />
+    <Content Remove="wwwroot\css\fluent.min.css" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <SupportedPlatform Include="browser" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="8.0.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\fluent.css" />
+    <None Include="wwwroot\css\fluent.min.css" />
+  </ItemGroup>
+
+</Project>

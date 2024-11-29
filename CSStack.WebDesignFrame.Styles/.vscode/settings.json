@@ -9,12 +9,17 @@
       "format": "compressed",
       "extensionName": ".min.css",
       "savePath": "/css"
+    },
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "/testPage/assets/dist/css"
     }
   ],
   "liveSassCompile.settings.generateMap": false,
   "liveSassCompile.settings.excludeList": [
     "/**/node_modules/**",
     "/.vscode/**",
-    "/sass/defines/**"
+    "/sass/base/**"
   ]
 }
